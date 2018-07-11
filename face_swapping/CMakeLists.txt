@@ -1,0 +1,7 @@
+set(CMAKE_C_COMPILER "C:/win-builds/bin/gcc.exe")
+set(CMAKE_CXX_COMPILER "C:/win-builds/bin/g++.exe")
+cmake_minimum_required(VERSION 2.8)
+project(Faceswapping)
+find_package( OpenCV REQUIRED )
+add_executable( FaceSwapping main.cpp )
+target_link_libraries( FaceSwapping ${OpenCV_LIBS} )

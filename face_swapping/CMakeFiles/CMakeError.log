@@ -1,0 +1,8 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/Pablo/Documents/FAU/Intro to Image and Video/multimedia-examples/project2/face_swapping/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_5108c\fast"
+El sistema no puede encontrar el archivo especificado
+Generator: execution of make failed. Make command was: "nmake" "/NOLOGO" "cmTC_5108c\fast"
+
+
